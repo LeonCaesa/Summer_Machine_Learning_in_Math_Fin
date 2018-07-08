@@ -5,7 +5,7 @@ Created on Sun Jul  1 10:10:02 2018
 
 @author: thelightofking
 """
-
+# This is a test. 
 import pandas as pd
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 import numpy as np
