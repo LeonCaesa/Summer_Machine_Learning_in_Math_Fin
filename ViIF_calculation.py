@@ -9,7 +9,7 @@ Created on Sun Jul  1 10:10:02 2018
 import pandas as pd
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 import numpy as np
-data=pd.read_sas("variables.sas7bdat")
+data=pd.read_sas("rpsdata_rfs.sas7bdat")
 time=pd.to_timedelta(data['DATE'], unit='D') + pd.datetime(1960, 1, 1)
 data['Date']=time.values
 data=data[data['fyear']>2015]
