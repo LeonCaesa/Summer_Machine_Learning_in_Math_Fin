@@ -1,4 +1,5 @@
-# Summer_Machine_Learning_in_Math_Fin----Project in progross.
+# Summer_Machine_Learning_in_Math_Fin
+        ----Project in progross.
 
 Created to share python srcipts among Ge and Georgie.
 
