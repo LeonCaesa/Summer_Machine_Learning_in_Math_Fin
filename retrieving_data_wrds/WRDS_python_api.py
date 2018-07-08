@@ -7,16 +7,12 @@ Created on Sat May 26 11:24:26 2018
 """
 
 import wrds
-#qiaozhih
-#Wrds2018
 #Tutor:https://wrds-www.wharton.upenn.edu/pages/support/accessing-wrds-remotely/accessing-wrds-remotely-python/python-code-examples-workflow-remote/
 db = wrds.Connection()
 def return_comp(long_string):
     temp= long_string.split(",")
     return db.get_table('comp', 'funda', columns=temp, obs=1000)
     
-
-#company=db.get_table('comp', 'company').head()
 
 
 #/*firm variables*/
