@@ -14,4 +14,4 @@ Data needs to be stored in the ./Data/ Directory in order for the data_cleaning.
 
   2. We cleaned the data by interpolating the missing values and check distribution [Jupyter Notebook](https://github.com/LeonCaesa/Summer_Machine_Learning_in_Math_Fin/blob/master/data_cleaning/data_cleanning.ipynb).
 
-  3. I mainly implemented Random Forest Methods here available at (Jupyter Notebook)[https://github.com/LeonCaesa/Summer_Machine_Learning_in_Math_Fin/blob/master/Random_Forest.ipynb]
+  3. I mainly implemented Random Forest Methods here available at [Jupyter Notebook](https://github.com/LeonCaesa/Summer_Machine_Learning_in_Math_Fin/blob/master/Random_Forest.ipynb)
